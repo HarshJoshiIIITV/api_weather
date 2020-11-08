@@ -1,0 +1,32 @@
+
+.card-bg {
+    height: 250px;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 5px 10px 8px 10px #888888;
+    border-radius: 50px;
+    margin: 32px;
+    width: 380px;
+    &.invalid-city {
+        background-color: red;
+        color: white;
+    }
+    .padding{
+        margin-right: 0px;
+    }
+    .align-right{
+        position: absolute;
+        right: 30px;
+    }
+    .temp {
+        font-size: 30px;
+        color: hsl(197deg 77% 42%);
+    }
+    .font{
+        font-size: 20px;
+        color: royalblue;
+    }
+}
